@@ -5,7 +5,7 @@ const SinglePageError = () => {
     console.log(error)
     return (
         <h2>
-            {error.message}
+            there was an error...
         </h2>
     );
 }
