@@ -7,7 +7,10 @@ const HomeLayout = () => {
 
         <>
             <Navbar />
-            <Outlet />
+            <section className='page'>
+                <Outlet />
+            </section>
+
 
         </>
     );

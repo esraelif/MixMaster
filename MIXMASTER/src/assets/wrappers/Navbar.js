@@ -28,8 +28,12 @@ const Wrapper = styled.nav`
     transition: var()--transition;
     letter-spacing: 2px;
     }
-    .nav-link{
+    .nav-link:hover{
        color: var(--primary-500);  
+    }
+    .active{
+        color: var(--primary-500);
+        
     }
     /*active*/
     @media   (min-width:768px){
@@ -41,10 +45,9 @@ const Wrapper = styled.nav`
   
   } 
   .nav-links{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 1rem;
+  
+    flex-direction: row;
+    margin-top: 0;
 }
     }
 
